@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800;900&family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&family=Outfit:wght@300&display=swap');
+
+body {
+    background-image: url(./material/bg-main-mobile.png);
+    background-repeat: no-repeat;
+    
+    
+}
+
+
+.firstpart {
+
+
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-bottom: 166px;
+
+
+}
+
+.pattern1{
+    display: none;
+}
+
+.equalizer {
+    margin-top: 40px;
+    margin-bottom: 64px;
+
+}
+
+.music {
+    color: #191826;
+    font-family: 'IBM Plex Sans';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.4545454680919647px;
+    margin-bottom: 20px;
+
+}
+
+.firttext {
+    
+    color: #191826;
+    font-family: 'IBM Plex Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+}
+
+.secondpart1 {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: #191826;
+    position: relative;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+
+}
+
+.pattern2 {
+    width: 80%;
+}
+
+.mobile {
+    width: 208.97px;
+    height: 430px;
+    margin-top: -70px;
+    position: absolute;
+}
+
+.secondpart2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: -45px;
+    width: 100vw;
+    justify-content: center;
+    background-color: #FA7453;
+    position: relative;
+    border-radius: 12px;
+    padding-left: 37px;
+    box-sizing: border-box;
+}
+
+.premium {
+    margin-top: 30px;
+    color: #FCFAF9;
+    font-family: 'IBM Plex Sans';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.text2 {
+    color: #FCFAF9;
+    margin-top: 12px;
+    width: 302px;
+    height: 140px;
+    font-family: 'IBM Plex Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.prices {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.price {
+    color: #FCFAF9;
+    font-family: 'IBM Plex Sans';
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 36px;
+
+}
+
+.month {
+    color: #FCFAF9;
+    font-family: 'IBM Plex Sans';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    margin-left: 16px;
+    margin-top: 42px;
+
+}
+
+.buttons {
+    width: 100vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.firstbutton {
+    margin-top: 32px;
+    background-color: #191826;
+    color: #FCFAF9;
+    height: 61px;
+    width: 296px;
+    left: 42px;
+    top: 1362px;
+    border-radius: 12px;
+    border: none;
+
+}
+
+.secondbutton {
+    margin-top: 16px;
+    margin-bottom: 48px;
+    background-color: #FCFAF9;
+    color: #191826;
+    height: 32px;
+    height: 61px;
+    width: 296px;
+    left: 42px;
+    top: 1439px;
+    border-radius: 12px;
+    border: none;
+
+
+
+
+}
+
+.thirdpart {
+    
+    padding-left: 37px;
+    margin-bottom: 100px;
+    
+
+}
+
+.equalizer2 {
+    margin-top: 64px;
+    margin-bottom: 32px;
+}
+
+.thirdtext {
+
+    width: 297px;
+    height: 105px;
+    color: #191826;
+    font-family: 'IBM Plex Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.email {
+    color: #191826;
+    font-family: 'IBM Plex Sans';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+
+
+}
+
+.socialmedia {
+    margin-top: 64px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+}
+
+
+@media screen and (min-width:768px) {
+
+    body {
+        background-image: url(./material/bg-main-tablet.png);
+        background-repeat: no-repeat;
+        width: 100vw;
+        background-size: 100%;
+        overflow-x: hidden;
+        
+        
+        
+    }
+    
+    
+    .firstpart {
+        padding-left: 39px;
+        margin-bottom: 249px;
+        position: relative;
+    
+    
+    }
+    
+    .pattern1{
+        display: block;
+        position: absolute;
+        width: 240px;
+        height: 77%;
+        top: -35px;
+        right: -30px;
+    }
+    
+    .equalizer {
+        margin-top: 61px;
+        margin-bottom: 95px;
+        width: 146px;
+        height: 32px;
+        
+    
+    }
+    
+    .music {
+        color: #191826;
+        font-family: 'IBM Plex Sans';
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 64px;
+        letter-spacing: -0.7272727489471436px;
+        text-align: left;
+        width: 520px;
+        height: 192px;
+
+        
+    
+    }
+    
+    .firsttext {
+        
+        color: #191826;
+        font-family: 'IBM Plex Sans';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0px;
+        width: 514px;
+        height: 112px;
+        margin-top: 28px;
+    }
+    
+    .secondpart1 {
+        box-sizing: border-box;
+        background-color: #191826;
+        position: relative;
+        border-radius: 12px;
+        width: 696px;
+        height: 600px;
+        margin-left: 33px;
+        margin-right: 39px;
+    
+    }
+    
+    .pattern2 {
+        margin-top: -5px;
+        margin-left: 90px;
+        width: 210px;
+        height: 350px;
+    }
+    
+    .mobile {
+        width: 270.21px;
+        height: 556px;
+        top: -70px;
+        left: 97px;
+        position: absolute;
+    }
+    
+    .secondpart2 {
+        padding-left: 48px;
+        display: flex;
+        background-color: #FA7453;
+        position: relative;
+        box-sizing: border-box;
+        width: 399px;
+        margin-left: 304px;
+        top: -410px;
+    }
+    
+    .premium {
+        
+        margin-top: 30px;
+        color: #FCFAF9;
+        font-family: 'IBM Plex Sans';
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0px;
+        text-align: left;
+
+    
+    }
+    
+    .text2 {
+        color: #FCFAF9;
+        margin-top: 12px;
+        width: 302px;
+        height: 140px;
+        font-family: 'IBM Plex Sans';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+    
+    }
+    
+    .prices {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    
+    .price {
+        color: #FCFAF9;
+        font-family: 'IBM Plex Sans';
+        font-size: 65px;
+        font-weight: 700;
+        line-height: 52px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-top: 36px;
+    
+    }
+    
+    .month {
+        color: #FCFAF9;
+        font-family: 'IBM Plex Sans';
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: -0.20000000298023224px;
+        text-align: left;
+        margin-left: 16px;
+        margin-top: 42px;
+    
+    }
+    
+    .buttons {
+        width: 100vw;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .firstbutton {
+        margin-top: 32px;
+        background-color: #191826;
+        color: #FCFAF9;
+        height: 61px;
+        width: 296px;
+        left: 42px;
+        top: 1362px;
+        border-radius: 12px;
+        border: none;
+    
+    }
+    
+    .secondbutton {
+        margin-top: 16px;
+        background-color: #FCFAF9;
+        color: #191826;
+        height: 32px;
+        height: 61px;
+        width: 296px;
+        left: 42px;
+        top: 1439px;
+        border-radius: 12px;
+        border: none;
+    
+    
+    
+    
+    }
+    
+    .thirdpart {
+        
+        padding-left: 33px;
+        margin-bottom: 84px;
+        margin-top: -350px;
+        
+    
+    }
+    
+    .equalizer2 {
+        margin-top: 64px;
+        margin-bottom: 32px;
+    }
+    
+    .thirdtext {
+    
+        width: 366px;
+        height: 79px;
+        color: #191826;
+        font-family: 'IBM Plex Sans';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: left;
+
+    
+    }
+    
+    .email {
+        color: #191826;
+        font-family: IBM Plex Sans;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: left;
+        
+    
+    
+    }
+    
+    .socialmedia {
+        margin-top: -44px;
+        width: 100px;
+        margin-left: 625px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #F2F2F2;
+    }
+
+}
+
